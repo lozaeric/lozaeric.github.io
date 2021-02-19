@@ -123,12 +123,6 @@
     return false;
   });
 
-  // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
   // Init AOS
   function aos_init() {
     AOS.init({
